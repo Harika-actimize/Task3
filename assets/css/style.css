@@ -1,0 +1,9 @@
+.error{
+    color: red;
+  }
+  .input{
+    outline: 1px solid #ccc;;
+  }
+  .input:invalid {
+    outline: 1px solid #f00;
+  }
