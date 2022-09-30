@@ -37,7 +37,7 @@ function checkfrom(){
         document.getElementById("email").setAttribute('required', 'required');
     }else  if (emailregex.test(email)== false){
         valid = false
-        document.getElementById("uemail").innerHTML= " @gmail.com enter this maneer"
+        document.getElementById("uemail").innerHTML= " please enter valid email id"
     
     }
     else{
